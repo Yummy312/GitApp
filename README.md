@@ -22,7 +22,7 @@ Frontend (Фронтэнд): Директория frontend содержит ло
 Для успешной установки всех зависимостей и запуска приложения необходимо выполнять команды в корневой директории проекта GitApp.
 
 ```shell
-npm install && cd backend && npm install && cd ../frontend && npm install
+npm install-deps
 ```
 Эта команда установит все зависимости как для backend, так и для frontend части приложения.
 
