@@ -1,0 +1,14 @@
+.button{
+    padding: 3px 8px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-weight: bold;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.button__current{
+
+    border: 3px solid #fb8500;
+}

@@ -1,0 +1,34 @@
+.userWrapper{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.userBody{
+    flex: 1 1 45%;
+    height: 120px;
+    flex-direction: column;
+    background-color: transparent;
+    border-radius: 5px;
+    outline: 1px solid #c9cbce;
+    padding: 19px;
+}
+
+
+.userContent{
+    display: flex;
+    align-items: center;
+    .userImg{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+    }
+
+    .userName{
+        margin-left: 15px;
+        font-size: 16px;
+    }
+
+
+}

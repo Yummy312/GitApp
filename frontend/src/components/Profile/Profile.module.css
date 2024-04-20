@@ -1,0 +1,93 @@
+.profileWrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 45px;
+    text-align: start;
+    font-size: 14px;
+
+    color: #C2CAD1;
+
+
+
+    .profileImg{
+        border-radius: 50%;
+        height: 230px;
+        width: 230px;
+
+    }
+    .imgBlock{
+        display: inline-block;
+        margin: 0 auto;
+
+    }
+
+    .profileTextContent{
+        display: flex;
+        padding-left: 40px;
+        flex-direction: column;
+        & > *{
+        }
+    }
+    .profileName{
+        display: inline-block;
+        color: #C2CAD1;
+        margin-top: 23px;
+        font-size: 24px;
+        line-height: 29px;
+        font-weight: 700;
+    }
+
+    .profileLogin{
+        color: #6E7681;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .profileBio{
+        margin-top: 10px;
+    }
+    .profileEmail{
+        margin-top: 25px;
+
+    }
+    .profileLocation, .profileCompany{
+        margin-top: 10px ;
+
+    }
+    .profileLink{
+        margin-top: 10px ;
+        text-decoration: none;
+        cursor: pointer;
+        color: white;
+
+        .profileLinkText{
+            color: #22d022;
+            margin-left: 5px;
+
+            &:hover{
+                background-color: #2e4f2e;
+            }
+        }
+
+        &:hover{
+
+        }
+    }
+    .profileEditBtn{
+        margin-top: 20px;
+        background-color: rgba(24, 97, 217, 0.6);
+        cursor: pointer;
+        border-radius: 2px;
+        padding: 5px;
+
+        &:hover{
+            background-color: rgba(82, 143, 243, 0.6);
+        }
+    }
+
+    .btnLink{
+        color: white;
+    }
+
+}

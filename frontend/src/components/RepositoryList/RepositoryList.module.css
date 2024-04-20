@@ -1,0 +1,31 @@
+.RepoList{
+    display: flex;
+    flex-direction: column;
+}
+
+.tabs{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+
+    .tab{
+        background-color: #0a0909;
+        color: white;
+        margin-right: 20px;
+        cursor: pointer;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 14px;
+        &:last-child{
+            margin-right: 30px;
+        }
+        &:hover{
+            background-color: #04458f;
+        }
+    }
+
+}
+
+.repos{
+    margin-top: 15px;
+}

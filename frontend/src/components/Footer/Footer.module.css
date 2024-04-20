@@ -1,0 +1,22 @@
+
+.footerInner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    padding-top: 33px;
+    padding-bottom: 29px;
+    width: 100%;
+    .menu{
+
+    }
+    .menuList{
+        display: flex;
+    }
+    .menuItem{
+        margin-right: 40px;
+    }
+    .menuLink{
+        color: white;
+    }
+}

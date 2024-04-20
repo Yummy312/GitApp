@@ -1,0 +1,48 @@
+
+
+.form {
+    display: flex;
+    width: 60%; /* Ширина формы */
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+
+
+}
+
+.formWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    & > *{
+        border: 1px solid #c9cbce;
+        background-color: #0a0909;
+        border-radius: 3px;
+
+
+    }
+}
+.inputForm{
+    display: flex;
+    height: 30px;
+    margin-bottom: 10px;
+    color: white;
+
+}
+
+.btnForm {
+    height: 20px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+
+    &:hover{
+        background-color: rgba(36, 118, 252, 0.6);
+    }
+    .btnFormText{
+        margin-top: 10px;
+    }
+}

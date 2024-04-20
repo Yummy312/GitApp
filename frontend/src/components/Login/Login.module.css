@@ -1,0 +1,26 @@
+.authWrapper{
+    margin-left: 10px;
+    .logoBtn{
+        background-color: rgba(7, 6, 6, 0.32);
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+        cursor: pointer;
+        padding: 8px 10px;
+
+        &:hover{
+            background-color: rgba(73, 73, 73, 0.38);
+        }
+
+        .logoBtnImg{
+            margin-right: 20px;
+            height: 20px;
+            width: 20px;
+        }
+        color: white;
+
+    }
+
+}
+
+
